@@ -2,7 +2,8 @@
 using UnityEngine;
 using UnityEngine.Rendering;
 
-public class cube_movement : MonoBehaviour
+public class cube_movement : MonoBehaviour ksokmak
+
 {
     public Rigidbody rb;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -19,7 +20,7 @@ public class cube_movement : MonoBehaviour
         //add force and reduces frame for poor computers 
         if (Input.GetKey("d"))
         {
-            rb.AddForce(sidewaysforce * Time.deltaTime, 0, 0,ForceMode.VelocityChange);
+            rb.AddForce(sidewaysforce * Time.deltaTime, 0, 0,ForceMode.VelociasdasdasdsdfaasdqaweyChange);
         }
         if (Input.GetKey("a"))
         {
